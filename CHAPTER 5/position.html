@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> positions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+           
+        }
+
+        .container {
+            margin: auto;
+            background-color: aqua;
+            width: 50vw;
+            height: 500vh;
+            padding: 40px;
+
+        }
+
+        .box {
+            background-color: blueviolet;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            left: 780px;
+            bottom: 40px ;
+
+        }
+        .box1 {
+            background-color: rgb(24, 34, 93);
+            height: 200px;
+            width: 200px;
+            position: relative;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est accusamus quos placeat vitae! Dolorum quae cum,
+            et libero similique fugit, placeat incidunt non vitae accusantium ex. Ipsa quasi dolorem numquam tenetur
+            nesciunt totam dignissimos.</p>
+        <div class="box">hii i am box </div>
+        <div class="box1">hii i am box </div>
+    </div>
+</body>
+
+</html>

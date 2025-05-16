@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+        .box{
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name:ishan;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+           
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        img{
+            animation-name:img;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+           
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            
+            
+
+
+        }
+        @keyframes ishan {
+            from{
+                width: 300px;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+            
+        }
+        @keyframes img  {
+            from{
+                width: 300px;
+                height: 300px;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+    
+            
+        }
+           
+        
+            
+
+            
+        
+            
+        
+
+        
+    </style>
+</head>
+<body>
+  
+    <di9v class="container">
+        <div class="box"> <img src="dragon.jpg" alt="" width="300px" height="300px"></div>
+    </di9v>
+</body>
+</html>
